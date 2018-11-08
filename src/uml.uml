@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="9.0" y="733.0">Faculty</node>
+    <node x="182.0" y="733.0">Staff</node>
+    <node x="0.0" y="32.5">Mydate</node>
+    <node x="309.45833333333337" y="454.5">Student</node>
+    <node x="56.45833333333334" y="366.0">Employee</node>
+    <node x="194.0" y="0.0">Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Staff" target="Employee">
+      <point x="38.25" y="-25.5" />
+      <point x="296.75" y="708.0" />
+      <point x="260.33333333333337" y="708.0" />
+      <point x="87.375" y="158.5" />
+    </edge>
+    <edge source="Employee" target="Person">
+      <point x="46.60000000000002" y="-158.5" />
+      <point x="219.55833333333337" y="346.0" />
+      <point x="257.9" y="346.0" />
+      <point x="-42.60000000000002" y="158.0" />
+    </edge>
+    <edge source="Faculty" target="Employee">
+      <point x="38.25" y="-25.5" />
+      <point x="123.75" y="708.0" />
+      <point x="143.83333333333334" y="708.0" />
+      <point x="-29.125" y="158.5" />
+    </edge>
+    <edge source="Employee" target="Mydate">
+      <point x="-46.599999999999966" y="-158.5" />
+      <point x="126.35833333333338" y="346.0" />
+      <point x="130.5" y="346.0" />
+      <point x="43.5" y="125.5" />
+    </edge>
+    <edge source="Student" target="Person">
+      <point x="38.25" y="-70.0" />
+      <point x="424.20833333333337" y="346.0" />
+      <point x="385.69999999999993" y="346.0" />
+      <point x="85.19999999999993" y="158.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="23.0" />
+  <SelectedNodes>
+    <node>Mydate</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
